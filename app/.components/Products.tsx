@@ -22,7 +22,7 @@ export default function Products() {
           <div className="bg-gray-50 rounded-lg shadow-md overflow-hidden">
             <div className="relative h-96">
               <Image
-                src="/product-still.jpg" // Place image in public/product-still.jpg (e.g., VOSS still bottle)
+                src="/product-still.png" // Place image in public/product-still.jpg (e.g., VOSS still bottle)
                 alt="Premium Still Water"
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -45,7 +45,7 @@ export default function Products() {
           <div className="bg-gray-50 rounded-lg shadow-md overflow-hidden">
             <div className="relative h-96">
               <Image
-                src="/product-sparkling.jpg" // Place image in public/product-sparkling.jpg (e.g., VOSS sparkling bottle)
+                src="/product-sparkling.png" // Place image in public/product-sparkling.jpg (e.g., VOSS sparkling bottle)
                 alt="Premium Sparkling Water"
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -68,7 +68,7 @@ export default function Products() {
           <div className="bg-gray-50 rounded-lg shadow-md overflow-hidden">
             <div className="relative h-96">
               <Image
-                src="/product-variety.jpg" // Place image in public/product-variety.jpg (e.g., assortment of bottles)
+                src="/product-variety.png" // Place image in public/product-variety.jpg (e.g., assortment of bottles)
                 alt="Variety Pack"
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"

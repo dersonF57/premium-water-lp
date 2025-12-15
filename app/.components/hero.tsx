@@ -8,7 +8,7 @@ export default function Home() {
       <section className="relative h-screen w-full overflow-hidden">
         {/* Background Image - Premium luxury water bottle (VOSS style) */}
         <Image
-          src="https://www.bevindustry.com/ext/resources/issues/2017/February/VOSS-Bottle-Line-UP---All.webp" // High-res lineup of premium glass bottles
+          src="/hero-water.jpg" 
           alt="Premium artesian water in elegant glass bottles"
           fill
           priority
@@ -41,7 +41,7 @@ export default function Home() {
             <Button
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white/10 px-10 py-7 text-lg font-medium backdrop-blur-sm transition"
+              className="border-pink text-black hover:bg-white/10 px-10 py-7 text-lg font-medium backdrop-blur-sm transition"
             >
               Learn More
             </Button>

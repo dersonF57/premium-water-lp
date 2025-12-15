@@ -69,7 +69,7 @@ export default function Footer() {
                 placeholder="Your email"
                 className="bg-transparent border-b border-gray-600 pb-2 focus:border-white outline-none transition text-sm"
               />
-              <Button variant="outline" className="border-white text-white hover:bg-white hover:text-black">
+              <Button variant="outline" className="bg-transparent border-white text-white hover:bg-white hover:text-black">
                 Subscribe
               </Button>
             </form>
