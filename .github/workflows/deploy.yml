@@ -27,13 +27,15 @@ jobs:
           node-version: 20
 
       - name: Install pnpm
-        run: npm install -g pnpm@latest
+        uses: pnpm/action-setup@v3  # Action oficial – resolve o erro de pnpm não encontrado
+        with:
+          version: latest
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Build and Export
-        run: pnpm build && pnpm export
+      - name: Build static site
+        run: pnpm build  # Com output: 'export' no next.config, gera a pasta "out"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
