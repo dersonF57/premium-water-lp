@@ -33,7 +33,7 @@ export default function About() {
           {/* Image - Premium water source or bottle */}
           <div className="relative h-96 md:h-[600px]"> {/* Explicit heights to avoid height 0 warning */}
             <Image
-              src="/about-water.jpg" // Your image in public/about-water.jpg
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/about-water.jpg`}
               alt="Pristine mountain water source"
               fill
               sizes="(max-width: 768px) 100vw, 50vw" // Fixes missing sizes warning - adjusts based on screen

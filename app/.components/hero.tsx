@@ -8,7 +8,7 @@ export default function Home() {
       <section className="relative h-screen w-full overflow-hidden">
         {/* Background Image - Premium luxury water bottle (VOSS style) */}
         <Image
-          src="/hero-water.jpg" 
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/hero-water.jpg`}
           alt="Premium artesian water in elegant glass bottles"
           fill
           priority
