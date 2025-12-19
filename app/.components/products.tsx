@@ -30,7 +30,7 @@ const slides = [
   {
     id: 3,
     title: "Variety Pack",
-    src: "/product-variety.jpg",
+    src: "/product-variety.png",
     alt: "Variety Pack",
   },
 ];
@@ -247,4 +247,5 @@ export default function Products() {
       </div>
     </section>
   );
+
 }
